@@ -39,7 +39,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                 <>
                     <rect
                         className="fill-white stoke-1 stroke-purple-500"
-                        // side="top-left"
                         x={0}
                         y={0}
                         style={{
@@ -55,7 +54,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                     />
                     <rect
                         className="fill-white stoke-1 stroke-purple-500"
-                        // side="bottom-left"
                         x={0}
                         y={0}
                         style={{
@@ -70,7 +68,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="bottom-right"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -86,7 +83,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="top-right"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -102,7 +98,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="top"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -118,7 +113,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="right"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -134,7 +128,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="left"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -150,7 +143,6 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
                         }}
                     />
                     <rect
-                        // side="bottom"
                         className="fill-white stoke-1 stroke-purple-500"
                         x={0}
                         y={0}
@@ -172,3 +164,5 @@ export const SelectionBox = memo(({ onResize }: SelectionBoxProps) => {
 });
 
 SelectionBox.displayName = 'SelectionBox';
+
+export default SelectionBox;

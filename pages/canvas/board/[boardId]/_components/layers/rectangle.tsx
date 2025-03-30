@@ -30,3 +30,5 @@ export const RectangleLayerPreview = ({
         />
     );
 };
+
+export default RectangleLayerPreview;

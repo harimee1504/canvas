@@ -458,3 +458,5 @@ export const Canvas = ({ boardId }: CanvasProps) => {
         </main>
     );
 };
+
+export default Canvas;

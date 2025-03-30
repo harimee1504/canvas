@@ -68,3 +68,5 @@ export const StickyNoteLayerPreview = ({
         </foreignObject>
     );
 };
+
+export default StickyNoteLayerPreview;

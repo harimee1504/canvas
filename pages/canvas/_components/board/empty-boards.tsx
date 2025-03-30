@@ -22,3 +22,5 @@ export const EmptyBoards = () => {
         </div>
     );
 };
+
+export default EmptyBoards;

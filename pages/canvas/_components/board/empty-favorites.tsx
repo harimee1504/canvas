@@ -16,3 +16,5 @@ export const EmptyFavorites = () => {
         </div>
     );
 };
+
+export default EmptyFavorites;

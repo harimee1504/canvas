@@ -72,3 +72,5 @@ export const BoardList = ({ orgId, query }: BoardListProps) => {
         </div>
     );
 };
+
+export default BoardList;

@@ -29,3 +29,5 @@ export const EmptyOrganizationState = () => {
         </div>
     );
 };
+
+export default EmptyOrganizationState;

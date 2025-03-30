@@ -33,3 +33,5 @@ export const EllipseLayerPreview = ({
         />
     );
 };
+
+export default EllipseLayerPreview;

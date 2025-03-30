@@ -28,3 +28,5 @@ export const ManageOrganizationButton = () => {
         </Dialog>
     );
 };
+
+export default ManageOrganizationButton;

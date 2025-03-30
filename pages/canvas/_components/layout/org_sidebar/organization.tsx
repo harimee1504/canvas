@@ -37,3 +37,5 @@ export const Organization = ({ id, name, imageUrl }: OrganizationProps) => {
         </div>
     );
 };
+
+export default Organization;

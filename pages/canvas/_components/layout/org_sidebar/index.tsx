@@ -13,3 +13,5 @@ export const OrgSidebar = () => {
         </aside>
     );
 };
+
+export default OrgSidebar;

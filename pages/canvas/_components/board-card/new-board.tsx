@@ -24,3 +24,5 @@ export const NewBoardCard = ({ orgId, disabled }: NewBoardCardProps) => {
         </button>
     );
 };
+
+export default NewBoardCard;

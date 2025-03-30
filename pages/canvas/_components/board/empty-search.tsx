@@ -16,3 +16,5 @@ export const EmptySearch = () => {
         </div>
     );
 };
+
+export default EmptySearch;

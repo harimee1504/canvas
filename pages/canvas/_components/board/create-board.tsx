@@ -17,3 +17,5 @@ export const CreateBoard = () => {
         </Button>
     );
 };
+
+export default CreateBoard;

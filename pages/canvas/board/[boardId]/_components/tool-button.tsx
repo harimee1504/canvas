@@ -32,3 +32,5 @@ export const ToolButton = ({
         </Hint>
     );
 };
+
+export default ToolButton;

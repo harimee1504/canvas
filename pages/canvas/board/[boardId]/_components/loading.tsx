@@ -13,3 +13,5 @@ export const CanvasLoading = () => {
         </main>
     );
 };
+
+export default CanvasLoading;

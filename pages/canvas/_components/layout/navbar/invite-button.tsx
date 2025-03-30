@@ -21,3 +21,5 @@ export const InviteButton = () => {
         </Dialog>
     );
 };
+
+export default InviteButton;

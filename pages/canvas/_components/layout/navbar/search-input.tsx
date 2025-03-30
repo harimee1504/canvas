@@ -5,6 +5,7 @@ import { Search } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { useCallback } from 'react';
 import debounce from 'lodash/debounce';
+
 export const SearchInput = () => {
     const router = useRouter();
     const handleSearch = (value: string) => {
@@ -36,3 +37,5 @@ export const SearchInput = () => {
         </div>
     );
 };
+
+export default SearchInput;

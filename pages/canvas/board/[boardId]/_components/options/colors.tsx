@@ -83,3 +83,5 @@ const ColorPickerButton = ({ onClick, color }: ColorOptionProps) => {
         </button>
     );
 };
+
+export default Colors;

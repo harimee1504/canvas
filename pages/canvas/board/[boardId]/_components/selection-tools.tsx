@@ -126,3 +126,5 @@ export const SelectionTools = memo(
 );
 
 SelectionTools.displayName = 'SelectionTools';
+
+export default SelectionTools;

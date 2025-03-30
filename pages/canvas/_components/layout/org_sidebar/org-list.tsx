@@ -26,3 +26,5 @@ export const OrganizationList = () => {
         </ul>
     );
 };
+
+export default OrganizationList;

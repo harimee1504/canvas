@@ -66,3 +66,5 @@ export const TextLayerPreview = ({
         </foreignObject>
     );
 };
+
+export default TextLayerPreview;

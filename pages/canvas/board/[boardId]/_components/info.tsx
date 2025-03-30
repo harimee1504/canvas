@@ -78,3 +78,5 @@ export const InfoSkeleton = () => {
         </div>
     );
 };
+
+export default Info;

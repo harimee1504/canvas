@@ -87,3 +87,5 @@ BoardCard.skeleton = () => {
         </div>
     );
 };
+
+export default BoardCard;
