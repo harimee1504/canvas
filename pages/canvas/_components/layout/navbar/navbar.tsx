@@ -1,6 +1,6 @@
 'use client';
 
-import { UserButton } from '@clerk/nextjs';
+import { UserButton } from '@clerk/clerk-react';
 import { InviteButton } from './invite-button';
 import { SearchInput } from './search-input';
 

@@ -1,6 +1,6 @@
 'use client';
 
-import { useOrganizationList } from '@clerk/nextjs';
+import { useOrganizationList } from '@clerk/clerk-react';
 import { Organization } from './organization';
 
 export const OrganizationList = () => {

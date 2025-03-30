@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useOrganization } from '@clerk/nextjs';
+import { useOrganization } from '@clerk/clerk-react';
 import { Hint } from '@/components/hint';
 
 import CanvasSidebar from '../canvas-sidebar';

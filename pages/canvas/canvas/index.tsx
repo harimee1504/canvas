@@ -1,7 +1,7 @@
 'use client';
 
 import CanvasMainComponent from './mainComponent';
-import { useOrganization } from '@clerk/nextjs';
+import { useOrganization } from '@clerk/clerk-react';
 import { useSearchParams } from 'next/navigation';
 
 const Page = () => {

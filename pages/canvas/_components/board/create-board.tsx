@@ -1,4 +1,4 @@
-import { useOrganization } from '@clerk/nextjs';
+import { useOrganization } from '@clerk/clerk-react';
 import { Button } from '@/components/ui/button';
 import { useInputModal } from '@/store/use-rename-modal';
 

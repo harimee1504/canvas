@@ -3,7 +3,7 @@
 import { Settings } from 'lucide-react';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
 import { Hint } from '@/components/hint';
-import { OrganizationProfile } from '@clerk/nextjs';
+import { OrganizationProfile } from '@clerk/clerk-react';
 
 export const ManageOrganizationButton = () => {
     return (

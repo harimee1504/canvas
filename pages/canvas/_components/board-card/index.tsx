@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Overlay } from './overlay';
 import { formatDistanceToNow } from 'date-fns';
-import { useAuth } from '@clerk/nextjs';
+import { useAuth } from '@clerk/clerk-react';
 import { Footer } from './footer';
 import { Skeleton } from '@/components/ui/skeleton';
 import { Actions } from '@/components/actions';

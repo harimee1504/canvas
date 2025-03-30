@@ -1,6 +1,6 @@
 'use client';
 
-import { useOrganization } from '@clerk/nextjs';
+import { useOrganization } from '@clerk/clerk-react';
 import Layout from './_components/layout/layout';
 import { useSearchParams } from 'next/navigation';
 import CanvasMainComponent from './canvas/mainComponent';
@@ -17,9 +17,7 @@ const Canvas = () => {
         favorites: undefined,
     } ;
     return (
-        <Layout>
-            <CanvasMainComponent organization={organization} query={query} />
-        </Layout>
+        <CanvasMainComponent organization={organization} query={query} />
     );
 };
 

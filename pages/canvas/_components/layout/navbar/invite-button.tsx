@@ -1,7 +1,7 @@
 'use client';
 import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent, DialogTrigger } from '@/components/ui/dialog';
-import { OrganizationProfile, useOrganization } from '@clerk/nextjs';
+import { OrganizationProfile, useOrganization } from '@clerk/clerk-react';
 import { Plus } from 'lucide-react';
 
 export const InviteButton = () => {

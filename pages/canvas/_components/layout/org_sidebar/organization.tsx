@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
-import { useOrganization, useOrganizationList } from '@clerk/nextjs';
+import { useOrganization, useOrganizationList } from '@clerk/clerk-react';
 import { Hint } from '@/components/hint';
 
 interface OrganizationProps {
