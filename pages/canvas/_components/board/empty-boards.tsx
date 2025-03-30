@@ -5,7 +5,7 @@ export const EmptyBoards = () => {
     return (
         <div className="h-full flex items-center justify-center flex-col">
             <Image
-                src="/empty-search.png"
+                src="/empty-search.svg"
                 height={140}
                 width={140}
                 alt="No boards found"
