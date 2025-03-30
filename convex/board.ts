@@ -3,17 +3,7 @@ import { v } from 'convex/values';
 import { mutation, query } from './_generated/server';
 
 const imageUrl = [
-    '/bee.jpg',
-    '/bird.jpg',
-    '/cow.jpg',
-    '/hen.jpg',
-    '/kola.jpg',
-    '/panda.jpg',
-    '/penguin.jpg',
-    '/pig.jpg',
-    '/rabbit.jpg',
-    '/rat.jpg',
-    '/unicorn.jpg',
+    'canvas.svg'
 ];
 
 export const create = mutation({

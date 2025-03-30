@@ -69,7 +69,7 @@ export default function App({ Component, pageProps }: AppProps) {
                         icon: 'FolderHeart',
                         url: () => {
                             router.push({
-                                query: { favourite: true },
+                                query: { favorites: true },
                             });
                         },
                     }

@@ -1,5 +1,4 @@
 'use client';
-import { Actions } from '@/components/actions';
 import { Hint } from '@/components/hint';
 import { Button } from '@/components/ui/button';
 import { Skeleton } from '@/components/ui/skeleton';
@@ -7,8 +6,7 @@ import { api } from '@/convex/_generated/api';
 import { Id } from '@/convex/_generated/dataModel';
 import { useInputModal } from '@/store/use-rename-modal';
 import { useQuery } from 'convex/react';
-import { Menu } from 'lucide-react';
-import Image from 'next/image';
+import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';
 
 interface InfoProps {
@@ -30,19 +28,11 @@ export const Info = ({ boardId }: InfoProps) => {
             <Hint label="Go to Canvas" sideOffset={10}>
                 <Button className="px-2" variant={'board'} asChild>
                     <Link href="/canvas">
-                        <Image
-                            src="/logo.png"
-                            alt="logo"
-                            height={40}
-                            width={40}
-                        />
-                        <span className="font-semibold text-xl ml-2 text-black">
-                            Canvas
-                        </span>
+                            <ArrowLeft />
                     </Link>
                 </Button>
             </Hint>
-            <PipeSeperator />
+            {/* <PipeSeperator />
             <Hint label="Rename Canvas" sideOffset={10}>
                 <Button
                     variant={'board'}
@@ -76,7 +66,7 @@ export const Info = ({ boardId }: InfoProps) => {
                         </Button>
                     </Hint>
                 </div>
-            </Actions>
+            </Actions> */}
         </div>
     );
 };
